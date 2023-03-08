@@ -7,6 +7,3 @@ class Player
   end
 
 end
-
-player1 = Player.new("Player 1")
-player2 = Player.new("Jacob")

@@ -1,6 +1,3 @@
-require "./question.rb"
-require "./player.rb"
-
 class Turn
   attr_accessor :player, :question, :outcome
 
@@ -34,11 +31,3 @@ class Turn
   end
 
 end
-
-# question1 = Question.new
-# player1 = Player.new("Player 1")
-# player2 = Player.new("Jacob")
-
-# turn1 = Turn.new(player1, question1 )
-
-# turn1.turn

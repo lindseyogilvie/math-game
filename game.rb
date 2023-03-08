@@ -1,7 +1,3 @@
-require "./player.rb"
-require "./question.rb"
-require "./turn.rb"
-
 class Game
   attr_accessor :player1, :player2, :current_player
 
